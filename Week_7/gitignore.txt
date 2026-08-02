@@ -1,0 +1,46 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Uploaded files
+uploaded_document.pdf
+faiss_index/
+*.pdf
+*.docx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Models (too large)
+*.pth
+*.bin
+*.h5
+*.hdf5
+*.onnx
+
+# Environment variables
+.env
+.env.local
